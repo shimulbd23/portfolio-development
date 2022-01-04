@@ -38,3 +38,44 @@ color: white;
     background-repeat: no-repeat;
     background-position: right;
 }
+.bottom{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.bottom-wraper{
+    display: flex;
+   
+ 
+}
+
+.time{
+    color: orange;
+}
+.bottom-wraper p{
+    color: lightskyblue;
+    text-align: justify;
+}
+.bottom-box1{
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+box-shadow: 10px 10px 40px gray;
+padding-left: 10px;
+border-image: linear-gradient(orange, tomato);
+border-left: 5px solid;
+border-image-slice: 1;
+}
+.bottom-box2{
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+box-shadow: 10px 10px 40px gray;
+padding-left: 10px;
+border-left: 5px solid;
+border-image: linear-gradient(blue, cyan);
+border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
